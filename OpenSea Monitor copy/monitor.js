@@ -81,7 +81,7 @@ async function checkNewItems(page, i, min, max, channelId, collectionUrl) {
                                         .addField('Price', listingPrice + ' ETH')
                                         .addField('Current Owner', `${listingOwner.user != null ? listingOwner.user.username : 'NaN'} [Visit Profile](https://opensea.io/${listingOwner.user != null ? listingOwner.user.username : ''})`)
                                         .setColor('#FFA500')
-                                        .setImage(listingImage != '' ? listingImage : './noimage.png')
+                                        .setImage(listingImage != '' ? listingImage : 'https://archive.org/download/no-photo-available/no-photo-available.png')
                                         .setFooter('Powered by NotifyFrance', 'https://pbs.twimg.com/profile_images/1360231339782455298/ypfe2YD2.jpg')
                                         .setTimestamp();
 

@@ -77,7 +77,7 @@ client.on('messageCreate', async msg => {
     }
 });
 
-client.login(process.env.DISCORD_TOKEN || 'ODkxNDMyNjUwOTE1NTg2MTA5.YU-RWQ.1Q95cE5UI6ZVUwSIweuVFDPI2qg');
+client.login(process.env.DISCORD_TOKEN || 'ODkxNDMyNjUwOTE1NTg2MTA5.YU-RWQ.jrJ-1ZXIyiN52DkjrXYyCf3Bhu0');
 
 
 module.exports.sendMessage = async function(embed, channelId) {

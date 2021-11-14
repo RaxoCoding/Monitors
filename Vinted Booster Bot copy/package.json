@@ -1,0 +1,25 @@
+{
+  "name": "vinted-booster-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "booster.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "mailslurp-client": "^15.0.2",
+    "moxname": "^1.0.6",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-recaptcha": "^3.5.0",
+    "puppeteer-extra-plugin-stealth": "^2.9.0",
+    "random-text-generator": "^3.2.1",
+    "user-agents": "^1.0.832"
+  },
+  "devDependencies": {
+    "puppeteer": "^11.0.0"
+  }
+}

@@ -1,0 +1,2 @@
+worker: node monitor.js
+web: node api.js

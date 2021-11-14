@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <form action="https://www.citadium.com/ajax.php" method="post" id="atc-form">
+        <h1> Loading... </h1>
+        <input type="hidden" value="addRef" name="action">
+        <input type="hidden" value="<%= refId %>" name="refId">
+        <input type="hidden" value="<%= saleId %>" name="saleId">
+        <input type="hidden" value="majPanier" name="do">
+        <input type="hidden" value="1" name="qty">
+        <input type="hidden" value="0" name="isCadeau">
+        <input type="hidden" value="ajout_fiche_produit" name="origine">
+    </form>
+
+    <script type="text/javascript">
+        document.getElementById("atc-form").submit();
+    </script>
+
+</body>
+
+</html>
